@@ -29,7 +29,7 @@ This affected other texts as well, but to different degrees. Here are a few more
 |5       |0.270088064 |0.992622757|0.999998804               |0.979639867|0.179094876       |0.002039043          |
 |6		|0.151365204	|0.980802653185286|0.99944769095168|0.559788206462384|0.361590290782822|0.00152886269231822|
 
-You can see the full spreadsheet in TrackSFModelling, including the coefficents for the different runs.
+You can see the full spreadsheet in TrackSFModelling.csv, including the coefficents for the different runs.
 
 # My changes
 
@@ -57,17 +57,13 @@ Of those, 1 were missing in the directory.
 0 volumes in the directory were missing in metadata.
 There were also 0 volumes excluded from the model by *excludeif*.
 
-We have 213 positive, and
-213 negative instances.
+We have 213 positive, and 213 negative instances.
 
-The whole corpus involved here includes 426
-volumes, ranging in date from 1771 to 1999.
+The whole corpus involved here includes 426 volumes, ranging in date from 1771 to 1999.
 
-The set of volumes not to be trained on includes 0
-positive volumes, ranging from 3000 to 0.
+The set of volumes not to be trained on includes 0 positive volumes, ranging from 3000 to 0.
 
-And also includes 0
-negative volumes, ranging from 3000 to 0.
+And also includes 0 negative volumes, ranging from 3000 to 0.
 
 Number of features 6000
 Training positives: 213
