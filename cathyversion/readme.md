@@ -5,7 +5,8 @@ Here are my results after modifying and running Ted's code from Chapter 2 in Dis
 There is, in short, something funky going on: the differences in prediction results for individual texts are much more significant than expected, despite using the same data and code.
 
 As an example, here are the different predictions for *Frankenstein*. Notice the swing, from a high of 63.68% to 2.98% (!!!). Ted does note that "you should not be surprised if you reproduce the modeling and get a result that is .1% - .5% higher or lower than the figure cited in the book," and while I'm not sure if that refers to the overall prediction accuracy for the body of texts (ie, 90%, see below) rather than the individual texts, these swings are still quite significant. 
-Original prediction (from Ted's data): 
+
+*Frankenstein* results ('original' is from allSF.csv included in Ted's dataset)
 |run|logistic|
 |-|-----------|
 |original|0.291827618| 
