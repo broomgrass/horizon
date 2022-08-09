@@ -31,6 +31,12 @@ This affected other texts as well, but to different degrees. Here are a few more
 
 You can see the full spreadsheet in TrackSFModelling.csv, including the coefficents for the different runs.
 
+Comparins Original data and Run 1:
+![Original - labels](https://user-images.githubusercontent.com/12994156/183687565-7221e52e-8a87-4b29-93df-d4eb8b8be483.jpg)
+![Run1 - labels](https://user-images.githubusercontent.com/12994156/183687651-2bab91df-e47a-4ebf-bdba-38882b5f72ea.jpg)
+
+
+
 # My changes
 
 These runs were done on either a Windows desktop (4 threads) or Windows Surface (2 threads), using an Anaconda/Python 3. 
@@ -46,7 +52,7 @@ I made minimal changes to the folder structure and Python files before running t
 
 When running the code, there aren't any flags.
 
-**Here is an example of Run 6:**
+# Here is an example of Run 6:
 
 python reproduce.py allSF
 
@@ -104,7 +110,7 @@ F1 : 0.9021479713603819
 If we divide the dataset with a horizontal line at 0.5, accuracy is:  0.903755868544601
 
 
-**Compare this to Ted's results as posted in labnotebook.md**
+# Compare the above to Ted's results (as posted in labnotebook.md)
 
 (21, 3) 
 4100 0.006 
