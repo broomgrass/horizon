@@ -17,7 +17,7 @@ As an example, here are the different predictions for *Frankenstein*. Notice the
 |run5|0.270088064| 
 |run6|0.151365204|
 
-This affected other texts as well, but to different degrees. Here are a few more examples.
+This affected other titles as well, but to different degrees. I haven't measured the differences to see if an originally 98% title always stays high, for example.
 
 |Run     |Frankenstein|L'an 2440  |From the Earth to the Moon|Neuromancer|Agrippa's Daughter|A Woman of the People|
 |--------|------------|-----------|--------------------------|-----------|------------------|---------------------|
