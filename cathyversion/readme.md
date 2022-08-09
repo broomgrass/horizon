@@ -31,7 +31,8 @@ This affected other titles as well, but to different degrees. I haven't measured
 
 You can see the full spreadsheet in TrackSFModelling.csv, including the coefficents for the different runs.
 
-Comparins Original data and Run 1:
+### Comparing Original data and Run 1 (see other figures in the repo above):
+
 ![Original - labels](https://user-images.githubusercontent.com/12994156/183687565-7221e52e-8a87-4b29-93df-d4eb8b8be483.jpg)
 ![Run1 - labels](https://user-images.githubusercontent.com/12994156/183687651-2bab91df-e47a-4ebf-bdba-38882b5f72ea.jpg)
 
