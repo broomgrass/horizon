@@ -2,10 +2,9 @@
 ## Chapter 2 Results
 Here are my results after modifying and running Ted's code from Chapter 2 in Distant Horizons. 
 
-There is, in short, something funky going on: the differences in prediction results are much more significant than expected, despite using the same data and code.
+There is, in short, something funky going on: the differences in prediction results for individual texts are much more significant than expected, despite using the same data and code.
 
-As an example, here are the different predictions for *Frankenstein*. Notice the swing, from a high of 63.68% to 2.98% (!!!). Ted does note that "you should not be surprised if you reproduce the modeling and get a result that is .1% - .5% higher or lower than the figure cited in the book" - but this is more significant.
-
+As an example, here are the different predictions for *Frankenstein*. Notice the swing, from a high of 63.68% to 2.98% (!!!). Ted does note that "you should not be surprised if you reproduce the modeling and get a result that is .1% - .5% higher or lower than the figure cited in the book," and while I'm not sure if that refers to the overall prediction accuracy for the body of texts (ie, 90%, see below) rather than the individual texts, these swings are still quite significant. 
 Original prediction (from Ted's data): 
 |run|logistic|
 |-|-----------|
@@ -17,7 +16,8 @@ Original prediction (from Ted's data):
 |run5|0.270088064| 
 |run6|0.151365204|
 
-This affected other texts as well. For example:
+This affected other texts as well, but to different degrees. Here are a few more examples.
+
 |Run     |Frankenstein|L'an 2440  |From the Earth to the Moon|Neuromancer|Agrippa's Daughter|A Woman of the People|
 |--------|------------|-----------|--------------------------|-----------|------------------|---------------------|
 |original|0.291827618 |0.793768689|0.988856617               |0.660413425|0.259849582       |0.016881402          |
